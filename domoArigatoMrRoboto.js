@@ -1653,7 +1653,6 @@
                 }
             },
 			
-			//Amy Command - "All Hail Amy!"
             amyCommand: {
                 command: 'amy',
                 rank: 'user',
@@ -1662,11 +1661,11 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!domoArigatoMrRoboto.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        API.sendChat("/me All Hail Amy!");
+                        API.sendChat("All Hail Amy!");
                         }
                     }
                 }
-            },			
+            },
 			
             autowootCommand: {
                 command: 'autowoot',
