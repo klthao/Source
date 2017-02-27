@@ -204,7 +204,7 @@
         name: "domoArigatoMrRoboto",
         loggedInID: null,
         scriptLink: "https://rawgit.com/klthao/source/master/domoArigatoMrRoboto.js",
-        cmdLink: "Hello",
+        cmdLink: "Please Consult with Charlotte for commands",
         chatLink: "https://rawgit.com/klthao/source/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
