@@ -3679,9 +3679,9 @@
                             API.sendChat(subChat(domoArigatoMrRoboto.chat.youtube, {name: chat.un, link: domoArigatoMrRoboto.settings.youtubeLink}));
                     }
                 }
-            }
+            },
 			
-			maggie1986Command: {
+	    maggie1986Command: {
                 command: 'maggie1986',
                 rank: 'user',
                 type: 'exact',
@@ -3692,11 +3692,9 @@
                         API.sendChat(subChat(domoArigatoMrRoboto.chat.maggie, {"Hello Maggie!"}));
                     }
                 }
-            },
+            },\
         }
     };
 
     loadChat(domoArigatoMrRoboto.startup);
 }).call(this);
-
-// isebella sux
